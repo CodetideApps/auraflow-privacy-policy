@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - AuraFlow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            opacity: 0;
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            opacity: 0;
+            animation: fadeInUp 0.8s ease 0.2s forwards;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        .section:nth-child(1) { animation-delay: 0.3s; }
+        .section:nth-child(2) { animation-delay: 0.4s; }
+        .section:nth-child(3) { animation-delay: 0.5s; }
+        .section:nth-child(4) { animation-delay: 0.6s; }
+        .section:nth-child(5) { animation-delay: 0.7s; }
+        .section:nth-child(6) { animation-delay: 0.8s; }
+
+        .section h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #3498db, #9b59b6);
+            animation: expandLine 1s ease 1s forwards;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #e9ecef;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.9em;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes expandLine {
+            to {
+                width: 60px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AuraFlow</h1>
+            <p>Privacy Policy</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <div class="highlight">
+                    <strong>Last Updated:</strong> May 23, 2025<br>
+                    <strong>Effective Date:</strong> May 23, 2025
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Introduction</h2>
+                <p>Welcome to AuraFlow! This Privacy Policy explains how AuraFlow ("we," "our," or "us") handles information in connection with the AuraFlow mobile application (the "App"). Your privacy is important to us, and we are committed to transparency in how we treat your data, or more accurately, how we <em>don't</em> collect it.</p>
+            </div>
+
+            <div class="section">
+                <h2>1. Information We Do Not Collect</h2>
+                <p>AuraFlow is designed with your privacy as a priority. We <strong>DO NOT</strong> collect, transmit, store, or share any Personally Identifiable Information (PII) from you. This includes, but is not limited to:</p>
+                <ul>
+                    <li>Your name, email address, or other contact information</li>
+                    <li>Your device identifiers (like IMEI, UDID, Advertising ID)</li>
+                    <li>Your location data</li>
+                    <li>Any data from your device's sensors, contacts, photos, or other personal files</li>
+                    <li>Usage analytics or crash reports that identify you personally</li>
+                </ul>
+                <p>The App does not require you to create an account or provide any personal details to use its features.</p>
+            </div>
+
+            <div class="section">
+                <h2>2. Information We Do Collect (Locally on Your Device)</h2>
+                <p>To enhance your experience and remember your preferences, AuraFlow stores certain settings locally on your device using your device's standard application storage mechanisms (specifically, <code>@react-native-async-storage/async-storage</code>). This information includes:</p>
+                <ul>
+                    <li><strong>Sound Settings:</strong> Whether sound is enabled or disabled, and your choice of ambient sound (e.g., "Rain," "Forest," "Waves," "Chimes")</li>
+                    <li><strong>Visual Style Settings:</strong> Your choice of visual style (e.g., "Particles," "Nebula," "Flow," "Starfield")</li>
+                </ul>
+                <p>This information is stored <strong>only on your device</strong> and is <strong>not transmitted to us or any third party</strong>. It is used solely by the App to remember your preferences for your next session.</p>
+            </div>
+
+            <div class="section">
+                <h2>3. How We Use Your Information</h2>
+                <p>The locally stored settings mentioned above are used exclusively to:</p>
+                <ul>
+                    <li>Customize your experience within the App according to your chosen preferences</li>
+                    <li>Allow the App to start with your last selected sound and visual style</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>4. Information Sharing and Third Parties</h2>
+                <p>Since we do not collect any Personally Identifiable Information, and the settings information is stored only locally on your device, <strong>we do not share any of your information with any third parties.</strong> AuraFlow does not integrate with any third-party analytics, advertising services, or social media platforms that would collect data from you through the App.</p>
+            </div>
+
+            <div class="section">
+                <h2>5. Data Security</h2>
+                <p>The settings data stored by AuraFlow resides on your device's local storage, managed by the operating system. While we rely on the security features of your device's operating system, please be aware that no method of storage is 100% secure.</p>
+            </div>
+
+            <div class="section">
+                <h2>6. Children's Privacy</h2>
+                <p>AuraFlow is not directed at children under the age of 13 (or the relevant age in your jurisdiction). We do not knowingly collect any information from children. If you believe a child has provided us with information, please contact us, though as stated, the App is designed not to collect PII.</p>
+            </div>
+
+            <div class="section">
+                <h2>7. Changes to This Privacy Policy</h2>
+                <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. If we make changes, we will update the "Last Updated" date at the top of this Privacy Policy. We encourage you to review this Privacy Policy periodically when accessing the App. Your continued use of the App after any changes to this Privacy Policy will constitute your acceptance of such changes.</p>
+            </div>
+
+            <div class="section">
+                <h2>8. Contact Us</h2>
+                <div class="contact-info">
+                    <p>If you have any questions or concerns about this Privacy Policy or AuraFlow's privacy practices, please feel free to contact us at:</p>
+                    <p><strong>Email:</strong> codetide.apps@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 AuraFlow. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
